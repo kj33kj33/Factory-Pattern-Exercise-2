@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ConsoleLogging.Greeting();
+
+            var databaseType = Console.ReadLine();
+
+            ConsoleLogging.DatabaseAccessText();
+
+            IDataAccess database = DataAccessFactory.GetDataAccessType(databaseType);
+
+            database.LoadData();
+            database.SaveData();
         }
     }
 }
