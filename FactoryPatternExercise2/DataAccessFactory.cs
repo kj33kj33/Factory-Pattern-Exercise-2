@@ -10,6 +10,7 @@ namespace FactoryPatternExercise2
                 case "list":
                     return new ListDataAccess();
                 case "sql":
+                case "mysql":
                     return new SQLDataAccess();
                 case "mongo":
                     return new MongoDataAccess();

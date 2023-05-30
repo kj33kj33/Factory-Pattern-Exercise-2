@@ -12,7 +12,7 @@
 
             IDataAccess database = DataAccessFactory.GetDataAccessType(databaseType);
 
-            database.LoadData();
+            List<Product> products = database.LoadData();
             database.SaveData();
         }
     }

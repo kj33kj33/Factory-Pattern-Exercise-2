@@ -6,7 +6,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.FactoryPatternExercise2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FactoryPatternExercise2/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FactoryPatternExercise2/MongoDataAccess.cs">
     <Files>
       <File FileName="FactoryPatternExercise2/Program.cs" Line="14" Column="1" />
       <File FileName="FactoryPatternExercise2/Product.cs" Line="11" Column="1" />
@@ -14,15 +14,14 @@
       <File FileName="FactoryPatternExercise2/ListDataAccess.cs" Line="18" Column="1" />
       <File FileName="FactoryPatternExercise2/SQLDataAccess.cs" Line="13" Column="70" />
       <File FileName="FactoryPatternExercise2/MongoDataAccess.cs" Line="13" Column="72" />
-      <File FileName="FactoryPatternExercise2/DataAccessFactory.cs" Line="8" Column="34" />
-      <File FileName="FactoryPatternExercise2/EmptyClass.cs" Line="6" Column="21" />
+      <File FileName="FactoryPatternExercise2/DataAccessFactory.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FactoryPatternExercise2" expanded="True">
             <Node name="FactoryPatternExercise2" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="MongoDataAccess.cs" selected="True" />
             </Node>
           </Node>
         </State>
